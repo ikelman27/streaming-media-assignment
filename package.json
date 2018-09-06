@@ -1,0 +1,29 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media asign",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikelman27/streaming-media-assignment.git"
+  },
+  "author": "Isaac KElman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikelman27/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/ikelman27/streaming-media-assignment#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
